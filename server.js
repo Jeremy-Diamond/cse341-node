@@ -7,7 +7,6 @@ const app = express();
 const lesson1Controller = require('./controllers/lesson1');
 
 app.get('/', lesson1Controller.helloRoute);
-
 app.get('/jeremy', lesson1Controller.jeremyRoute);
 
 const port = 3000;
